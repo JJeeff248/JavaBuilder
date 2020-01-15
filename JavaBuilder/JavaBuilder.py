@@ -1,14 +1,15 @@
 # JavaBuilder.py
-# Compile and run java files from sublime in the command prompt
+# Compile and run java files from sublime in the command promt
 
 # Modified: 16/01/2020
 # Created: 15/01/2020
 # By JJeeff248
 
-import subprocess, sublime_plugin, os
+import subprocess, sublime_plugin, os, sublime
 
 class JavabuilderCommand(sublime_plugin.TextCommand):
     def run(self, edit):
+        self.view.run_command("save")
         file_path=self.view.file_name() # C:\users\..\file.java
         path = file_path.split("\\")
 
