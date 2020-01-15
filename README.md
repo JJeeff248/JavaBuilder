@@ -9,6 +9,8 @@ Sublime Text 3 Plugin to compile and run java files
 4. Open a java file and right click, look for Javabuilder and select it
 5. Command prompt should popup and start running your file
 
+**MAKE SURE TO SAVE YOUR FILES BEFORE RUNNING JAVABUILDER**
+
 If the above doesn't work try starting Sublime Text as an admin
 
 # Credit
