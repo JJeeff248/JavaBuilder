@@ -9,7 +9,8 @@ import subprocess, sublime_plugin, os, sublime
 
 class JavabuilderCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        self.view.run_command("save") 
+        for view in self.view.window().views():
+            view.run_command('save')
 
         def get_path(self):
             """Get the current file path"""
