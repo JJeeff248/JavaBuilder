@@ -1,6 +1,9 @@
 # JavaBuild for Sublime Text 3
 Sublime Text 3 Plugin to compile and run java files
 
+## Requirements
+* To run this plugin you must have installed [JavaJDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
+
 # Install
 1. To install this package first locate your package folder 
 	1. (In Sublime Text select "Preferences" > "Browse Packages")
@@ -8,8 +11,6 @@ Sublime Text 3 Plugin to compile and run java files
 3. Restart Sublime
 4. Open a java file and right click, look for Javabuilder and select it
 5. Command prompt should popup and start running your file
-
-**MAKE SURE TO SAVE YOUR FILES BEFORE RUNNING JAVABUILDER**
 
 If the above doesn't work try starting Sublime Text as an admin
 
