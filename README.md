@@ -2,7 +2,7 @@
 Sublime Text 3 Plugin to compile and run java files
 
 ## Requirements
-* To run this plugin you must have theJavaJDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
+* To run this plugin you must have the JavaJDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html) installed
 
 # Install
 1. To install this package first locate your package folder 
